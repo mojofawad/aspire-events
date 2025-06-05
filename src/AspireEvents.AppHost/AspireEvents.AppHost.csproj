@@ -17,4 +17,13 @@
         <PackageReference Include="Aspire.Hosting.SqlServer" Version="9.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AspireEvents.Bookings\AspireEvents.Bookings.csproj" />
+      <ProjectReference Include="..\AspireEvents.Events\AspireEvents.Events.csproj" />
+      <ProjectReference Include="..\AspireEvents.Gateway\AspireEvents.Gateway.csproj" />
+      <ProjectReference Include="..\AspireEvents.Notifications\AspireEvents.Notifications.csproj" />
+      <ProjectReference Include="..\AspireEvents.Payments\AspireEvents.Payments.csproj" />
+      <ProjectReference Include="..\AspireEvents.Users\AspireEvents.Users.csproj" />
+    </ItemGroup>
+
 </Project>
