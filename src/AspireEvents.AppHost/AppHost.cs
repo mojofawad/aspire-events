@@ -10,6 +10,8 @@ var notificationsDb = sqlServer.AddDatabase("notifications-db", "notifications-d
 var paymentsDb = sqlServer.AddDatabase("payments-db", "payments-db");
 var usersDb = sqlServer.AddDatabase("users-db", "users-db");
 
+var queryDb = sqlServer.AddDatabase("query-db", "query-db");
+
 var gateway = builder.AddProject<Projects.AspireEvents_Gateway>("api-gateway");
 
 builder.AddProject<Projects.AspireEvents_Bookings>("bookings-api")
@@ -26,6 +28,9 @@ builder.AddProject<Projects.AspireEvents_Payments>("payments-api")
 
 builder.AddProject<Projects.AspireEvents_Users>("users-api")
     .WithReference(usersDb);
+
+builder.AddProject<Projects.AspireEvents_Query>("query-api")
+    .WithReference(queryDb);
 
 builder.AddNpmApp("web-app", "../aspire-events-web", "dev")
     .WithExternalHttpEndpoints()

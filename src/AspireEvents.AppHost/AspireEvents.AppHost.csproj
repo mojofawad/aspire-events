@@ -23,6 +23,7 @@
       <ProjectReference Include="..\AspireEvents.Gateway\AspireEvents.Gateway.csproj" />
       <ProjectReference Include="..\AspireEvents.Notifications\AspireEvents.Notifications.csproj" />
       <ProjectReference Include="..\AspireEvents.Payments\AspireEvents.Payments.csproj" />
+      <ProjectReference Include="..\AspireEvents.Query\AspireEvents.Query.csproj" />
       <ProjectReference Include="..\AspireEvents.Users\AspireEvents.Users.csproj" />
     </ItemGroup>
 
