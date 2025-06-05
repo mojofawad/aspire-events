@@ -5,6 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.AppHost", "AspireEvents.AppHost\AspireEvents.AppHost.csproj", "{DFD779D9-BA29-4502-A3A8-A703677E3A7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.Gateway", "AspireEvents.Gateway\AspireEvents.Gateway.csproj", "{D3F09C23-6B41-4348-B7FA-03C31196A4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.Users", "AspireEvents.Users\AspireEvents.Users.csproj", "{5BDDE619-08E5-47E0-96DD-458B71A00214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.Bookings", "AspireEvents.Bookings\AspireEvents.Bookings.csproj", "{9C06197C-FC0E-4858-BB6A-E82CD2602A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.Notifications", "AspireEvents.Notifications\AspireEvents.Notifications.csproj", "{C2C03953-D52B-495F-ACCE-050A498706E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.Events", "AspireEvents.Events\AspireEvents.Events.csproj", "{40DFDB3F-AACB-492A-9673-9046E4FF37C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireEvents.Payments", "AspireEvents.Payments\AspireEvents.Payments.csproj", "{4664F328-9521-45C8-9202-DD0BED3119A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +30,29 @@ Global
 		{DFD779D9-BA29-4502-A3A8-A703677E3A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD779D9-BA29-4502-A3A8-A703677E3A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD779D9-BA29-4502-A3A8-A703677E3A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F09C23-6B41-4348-B7FA-03C31196A4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F09C23-6B41-4348-B7FA-03C31196A4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F09C23-6B41-4348-B7FA-03C31196A4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F09C23-6B41-4348-B7FA-03C31196A4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDDE619-08E5-47E0-96DD-458B71A00214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDDE619-08E5-47E0-96DD-458B71A00214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDDE619-08E5-47E0-96DD-458B71A00214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDDE619-08E5-47E0-96DD-458B71A00214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C06197C-FC0E-4858-BB6A-E82CD2602A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C06197C-FC0E-4858-BB6A-E82CD2602A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C06197C-FC0E-4858-BB6A-E82CD2602A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C06197C-FC0E-4858-BB6A-E82CD2602A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C03953-D52B-495F-ACCE-050A498706E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C03953-D52B-495F-ACCE-050A498706E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C03953-D52B-495F-ACCE-050A498706E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C03953-D52B-495F-ACCE-050A498706E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DFDB3F-AACB-492A-9673-9046E4FF37C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DFDB3F-AACB-492A-9673-9046E4FF37C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DFDB3F-AACB-492A-9673-9046E4FF37C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DFDB3F-AACB-492A-9673-9046E4FF37C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4664F328-9521-45C8-9202-DD0BED3119A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4664F328-9521-45C8-9202-DD0BED3119A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4664F328-9521-45C8-9202-DD0BED3119A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4664F328-9521-45C8-9202-DD0BED3119A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

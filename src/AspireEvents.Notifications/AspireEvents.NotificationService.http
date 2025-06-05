@@ -1,0 +1,6 @@
+@AspireEvents.NotificationService_HostAddress = http://localhost:5201
+
+GET {{AspireEvents.NotificationService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
